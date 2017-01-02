@@ -1,12 +1,12 @@
 {
-  "name": "messaging/shared",
+  "name": "compartido/shared",
   "description": "Repositorio de datos compartidos, librerias y helpers",
   "type": "library",
   "license": "propietary",
   "authors": [
     {
-      "name": "Aldo Rodríguez",
-      "email": "a.rodriguez@wsensemx.com"
+      "name": "Aldo Rodríguez, Enrique Ramírez",
+      "email": ""
     }
   ],
   "minimum-stability": "stable",
@@ -18,7 +18,7 @@
   },
   "autoload": {
     "psr-4": {
-      "messaging\\shared\\": "src/"
+      "compartido\\shared\\": "src/"
     }
   }
 }
