@@ -1,0 +1,24 @@
+{
+  "name": "messaging/shared",
+  "description": "Repositorio de datos compartidos, librerias y helpers",
+  "type": "library",
+  "license": "propietary",
+  "authors": [
+    {
+      "name": "Aldo Rodríguez",
+      "email": "a.rodriguez@wsensemx.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "require-dev": {
+    "phpdocumentor/phpdocumentor": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "messaging\\shared\\": "src/"
+    }
+  }
+}
